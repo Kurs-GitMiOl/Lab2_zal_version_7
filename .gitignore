@@ -46,7 +46,6 @@ Desktop.ini
 *.bak
 *.swp
 *.swo
-.coverage
 *.orig
 # zapenia dodanie htmlcov
 !htmlcov/
