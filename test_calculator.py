@@ -81,7 +81,7 @@ def test_division_mixed_sign_numbers():
     assert math.isclose(calc_1.divide(), -2.0, rel_tol=1e-9)
 
 
-# Test division (for first implementation of division) with op2 == 0.0
+# Test division  with op2 == 0.0
 def test_divide_by_zero():
     calc_1 = Calculator(10.0, 0.0)
     assert calc_1.divide() == "Error - division by zero!!!"
